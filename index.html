@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+
+        <section class="score-panel">
+
+            <!-- Stopwatch -->
+            <span class="Stopwatch">0:00</span>
+
+            <ul class="stars">
+                <li>
+                    <i class="fa fa-star"></i>
+                </li>
+                <li>
+                    <i class="fa fa-star"></i>
+                </li>
+                <li>
+                    <i class="fa fa-star"></i>
+                </li>
+            </ul>
+
+            <span class="Fliped_Cards">0</span> Fliped Cards
+
+            <div class="restart">
+                <i class="fa fa-repeat"></i>
+            </div>
+        </section>
+
+        <ul class="deck">
+            <li class="card">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-cube"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-cube"></i>
+            </li>
+        </ul>
+    </div>
+
+    <div class="Scoreboard_Background Hide">
+        <div class="Scoreboard_Body">
+            <div class="Scoreboard_Heading">
+                <h1 class="Scoreboard_Title">Scoreboard</h1>
+                <span class="Scoreboard_Close">X</span>
+            </div>
+
+            <div class="Scoreboard_Stats">
+                <span class="Scoreboard_Time">Time =</span>
+                <span class="Scoreboard_Stars">Shooting Stars =</span>
+                <span class="Scoreboard_Fliped_Cards">Fliped Cards =</span>
+            </div>
+
+            <div class="Scoreboard_Buttons">
+                <button class="Scoreboard_Button Scoreboard_Abort">Abort</button>
+                <button class="Scoreboard_Button Scoreboard_New_Match">New Match</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
