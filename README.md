@@ -2,7 +2,7 @@
 
 # Match Instruction
 
-This is a simple card game where you have to match the symbols together. There are 8 Pairs in Total that you have to match together as best as you could.
+This is a simple card game where you have to match the symbols together. There are 8 Pairs in total that you have to match together as best as you could.
 
 # How To Play the Card Game
    -  Download and extract the Card Game via Zip
